@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double R,W,L;
+    int flag=1;
+    while((cin>>R)&&R)
+   { cin>>W>>L;
+   // int flag=0;
+    if(R>=sqrt((W/2)*(W/2)+(L/2)*(L/2)))
+    {
+       // cout<<flag<<" "<<"Fits"<<endl;
+      //  count++;
+      cout<<"Pizza"<<" "<<flag<<" "<<"fits on the table."<<endl;
+    }
+    else
+    {
+        //cout<<flag<<" "<<"not"<<endl;
+      //  count++;
+      cout<<"Pizza"<<" "<<flag<<" "<<"does not fit on the table."<<endl;
+    }
+   // count++;
+   flag++;
+  }
+
+  
+
+}
